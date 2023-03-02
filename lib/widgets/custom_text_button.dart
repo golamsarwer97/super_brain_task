@@ -18,9 +18,9 @@ class CustomTextButton extends StatelessWidget {
         alignment: AlignmentDirectional.center,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(14),
-          color: Color.fromRGBO(45, 118, 20, 1),
+          color: const Color.fromRGBO(45, 118, 20, 1),
         ),
-        child: Text(
+        child: const Text(
           'পরবর্তী ধাপ',
           style: TextStyle(
             color: Colors.white,
